@@ -1,0 +1,50 @@
+.book__item {
+    min-width: 400px;
+    margin: 20px 0;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.book__name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.book__price {
+    color: #0008;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.book__delete {
+    cursor: pointer;
+    font-size: 40px !important;
+    transition: 0.4s ease-in-out !important;
+}
+
+.book__delete:hover {
+    color: #f00;
+}
+
+.book__update {
+    cursor: pointer;
+    font-size: 40px !important;
+    transition: 0.4s ease-in-out !important;
+}
+
+.book__update:hover {
+    color: #080;
+}
+
+.books__container {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column;
+    text-align: center !important;
+    margin: auto !important;
+}

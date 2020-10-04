@@ -1,0 +1,25 @@
+nav {
+    height: 8vh;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    background-color: #000;
+}
+
+nav a {
+    color: #222;
+    font-size: 30px;
+    font-weight: 800;
+    text-decoration: none;
+    transition: 0.4s ease-in-out;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+nav .nav__numbers {
+    font-size: 1.2rem;
+}
